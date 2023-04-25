@@ -1,0 +1,16 @@
+{
+  "storage": {
+    "rules": "rules_version = '2';"
+  },
+  "hosting": {
+    "public": "dist/FrontEndME",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "functions": {
+    "source": "functions"
+  }
+}
